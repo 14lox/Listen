@@ -117,6 +117,13 @@
         [self becomeFirstResponder];
     }
     [self getSavedPlaylist];
+    
+    
+#if TARGET_IPHONE_SIMULATOR
+    
+    [[[UIAlertView alloc] initWithTitle:@"Nope" message:@"This wont work on the Simulator. \nWe can't access any music. \nRun on a device with music." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+    
+#endif
         
     return YES;
 }
