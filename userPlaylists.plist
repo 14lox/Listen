@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>playlists</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Current Playlist</string>
+			<key>tracks</key>
+			<array/>
+			<key>created</key>
+			<date>2013-10-05T01:02:16Z</date>
+			<key>lastmodified</key>
+			<date>2013-10-05T01:08:33Z</date>
+		</dict>
+	</array>
+</dict>
+</plist>
